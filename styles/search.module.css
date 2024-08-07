@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 16px;
+  }
+  
+  .searchInput {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 16px;
+    padding: 5px 10px;
+    width: 80%;
+  }
+  
+  .searchIcon {
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+  }
+  
+  .searchInput input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 16px;
+  }
+  
+  .filterButton {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 16px;
+    padding: 5px 10px;
+    cursor: pointer;
+
+  }
+    .filterButton select {
+      min-height: 30px;
+      border-radius: 16px;
+      border: 0px;
+      max-width: 200px;
+  
+    }
+
+  .filterIcon {
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+  }
+  

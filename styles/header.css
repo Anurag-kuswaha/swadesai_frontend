@@ -1,0 +1,102 @@
+.wrapperContainer {
+    background: linear-gradient(3deg, #D6EBF0 98%, #D6EBF0 98%, #D6EBF0 100%);
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    height: 110px;
+    align-items: center;
+    position: relative;
+  }
+  
+  @media (max-width: 1400px) {
+    .wrapper {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 1050px) {
+    .wrapper {
+      width: 100%;
+      margin: 0;
+    }
+  }
+  
+  .linksAndUser {
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
+  }
+  
+  @media (max-width: 1110px) {
+    .linksAndUser {
+      padding-left: 10px;
+      padding-right: 10px;
+      column-gap: 0;
+    }
+  }
+  
+  @media (max-width: 1050px) {
+    .linksAndUser {
+      column-gap: 0;
+    }
+  }
+  
+  @media (max-width: 581px) {
+    .linksAndUser button {
+      display: flex;
+      position: absolute;
+      top: 5px;
+      right: 10px;
+    }
+  }
+  
+  .links {
+    display: flex;
+    column-gap: 30px;
+    padding-top: 10px;
+  }
+  
+  @media (max-width: 1200px) {
+    .links {
+      column-gap: 20px;
+    }
+  }
+  
+  .link {
+    font-family: 'Medium', sans-serif; /* Replace with actual font-family */
+    font-size: 20px;
+    text-decoration: none;
+    padding-bottom: 7px;
+    color: #333; /* Replace with actual color */
+    transition: 0.4s;
+  }
+  
+  .link:hover {
+    color: #007bff; /* Replace with actual primary color */
+  }
+  
+  .activeLink {
+    font-family: 'Medium', sans-serif; /* Replace with actual font-family */
+    font-size: 20px;
+    text-decoration: none;
+    padding-bottom: 5px;
+    color: #007bff; /* Replace with actual primary color */
+    border-bottom: 1px solid #007bff; /* Replace with actual primary color */
+  }
+  
+  .logo {
+    width: 150px;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 1200px) {
+    .logo {
+      width: 130px;
+      margin-top: 10px;
+    }
+  }
+  

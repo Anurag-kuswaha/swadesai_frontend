@@ -1,0 +1,31 @@
+
+:root{
+  --var-bg-color: #E1F4F5;
+  --primary-color: #00D095;
+  --secondary-color: #1D5E6D;
+
+}
+body {
+  text-align: center;
+  background-image: linear-gradient(121.51deg, var(--var-bg-color) 30.38%, var(--var-bg-color) 53.04%, #D6EBF0 71.29%);
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.blog-container .card{
+  --bs-bg-opacity:0.8 !important
+}

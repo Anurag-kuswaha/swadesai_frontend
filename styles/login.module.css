@@ -1,0 +1,70 @@
+
+  
+  .header {
+    text-align: left;
+    font-size: 40px;
+    font-weight: 900;
+    color: var(--primary-color); /* Replace with your primary color variable */
+    margin-bottom: 50px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .inputGroup {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .inputGroup input {
+    width: 100%;
+    padding: 15px 40px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+  }
+  
+  .inputGroup .icon {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    width: 10px;
+  }
+  
+  .inputGroup .passwordIcon {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .button {
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    background-color: #39b48e;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .buttonSecondary {
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    background-color: var(--secondary-color);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  
+  .button:hover {
+    background-color: #2a8c6f;
+  }
+  
